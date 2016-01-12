@@ -148,25 +148,25 @@ footer
 
 #p2content .jumbotron
 {
-    background-image: url('../img/.jpg');
-
+    background-image: url('../img/holacracy-org-chart.jpg');
+    background-position: center -342px;
 }
 
 #p3content .jumbotron
 {
-    background-image: url('../img/.jpg');
-    background-position: center -250px;
+    background-image: url('../img/zappos-before.jpg');
+    background-position: center -205px;
 }
 
 #p4content .jumbotron
 {
-    background-image: url('../img/.jpg');
-    background-position: center -83px;
+    background-image: url('../img/zappos-after.jpg');
+    background-position: center -173px;
 }
 
 #p5content .jumbotron
 {
-    background-image: url('../img/.jpg');
+    background-image: url('../img/conclusion-hdr.jpg');
     background-position: center -200px;
 }
 
@@ -243,24 +243,24 @@ p.semihero
     background-position: center center;
 }
 
-.home-box-img#box-tech
+.home-box-img#box-holacracy
 {
-    background-image: url('../.jpg');
+    background-image: url('../img/holacracy-org-chart.jpg');
 }
 
-.home-box-img#box-security
+.home-box-img#box-before
 {
-    background-image: url('../.jpg');
+    background-image: url('../img/zappos-before.jpg');
 }
 
-.home-box-img#box-economics
+.home-box-img#box-after
 {
-    background-image: url('../.jpg');
+    background-image: url('../img/zappos-after.jpg');
 }
 
-.home-box-img#box-viability
+.home-box-img#box-final
 {
-    background-image: url('../img/.jpg');
+    background-image: url('../img/conclusion-hdr.jpg');
 }
 
 .home-box-img img
