@@ -24,13 +24,13 @@ $(window).hashchange( function(){
             case 'intro':
                 id = 'p1';
                 break;
-            case 'tech':
+            case 'holacracy':
                 id = 'p2';
                 break;
-            case 'security':
+            case 'before':
                 id = 'p3';
                 break;
-            case 'economics':
+            case 'after':
                 id = 'p4';
                 break;
             case 'final':
@@ -76,7 +76,7 @@ function hidePages(me) {
 
     $($('#' + currentPage).parent()).removeClass('active');
     showPage(me);
-    
+
 }
 
 $('.nav a').click(function(event) {
