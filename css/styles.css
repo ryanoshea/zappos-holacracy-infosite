@@ -206,6 +206,12 @@ footer
     margin-top: 0;
 }
 
+.quote
+{
+    font-style: italic;
+    text-align: center;
+}
+
 .thumbnail
 {
     padding: 0;
