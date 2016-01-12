@@ -1,0 +1,345 @@
+body
+{
+    font-family: "Open Sans", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+    overflow-y: scroll;
+}
+
+a, a:hover, a:visited, a:active, a:focus
+{
+    outline: 0;
+
+}
+
+iframe
+{
+    border: 0;
+}
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #fe57a1;
+    text-shadow: none;
+    color: white;
+}
+
+::selection {
+    background: #fe57a1; /* the original HTML5 Boilerplate hot pink, baby */
+    text-shadow: none;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "Helvetica LT Std", "Segoe UI", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+footer
+{
+    font-size: small;
+}
+.navbar
+{
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.87);
+    -moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 0.87);
+    box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 0.87);
+}
+
+.container p, .container li
+{
+    line-height: 2em;
+}
+
+.jumbotron
+{
+    background: url('../img/fastco-desks.jpg') no-repeat center 70% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+
+
+}
+
+.jumbotron p
+{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    font-weight: normal;
+}
+
+.container .jumbotron
+{
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.jumbotron h1
+{
+    /*font-family: Open Sans, sans-serif;*/
+    font-family: "Helvetica LT Std", "Segoe UI", Helvetica, sans-serif;
+    font-style: none;
+    /*font-weight: lighter;*/
+    font-size: 48pt;
+    background: rgba(0,0,0,0.6);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+    text-shadow: none;
+}
+#p1content .jumbotron .container
+{
+    margin-top: 8em;
+}
+
+/*#p1content .jumbotron h1
+{
+    text-shadow: 3px 3px 14px rgba(0, 0, 0, 1);
+}*/
+
+#p1content .jumbotron .smaller
+{
+    font-size: small;
+}
+
+.pages
+{
+    display: none;
+    position: relative;
+}
+
+.well#IRS
+{
+    margin-top: 7em;
+}
+
+#p2content .panel table td
+{
+    width: 50%;
+}
+#p2content .panel ul
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+#p2content .panel table th
+{
+    text-align: center;
+}
+
+.textpage .jumbotron
+{
+    background-size: cover;
+    background-position: center top;
+    background-attachment: local;
+}
+
+#p2content .jumbotron
+{
+    background-image: url('../img/.jpg');
+
+}
+
+#p3content .jumbotron
+{
+    background-image: url('../img/.jpg');
+    background-position: center -250px;
+}
+
+#p4content .jumbotron
+{
+    background-image: url('../img/.jpg');
+    background-position: center -83px;
+}
+
+#p5content .jumbotron
+{
+    background-image: url('../img/.jpg');
+    background-position: center -200px;
+}
+
+#refcontent .jumbotron
+{
+    background-image: url('../img/.jpg');
+    background-position: center -242px;
+}
+
+#main-header
+{
+    margin-bottom: 40px;
+}
+
+.well#infographic-transaction
+{
+    margin-top: 20em;
+}
+
+.well#infographic-transaction img
+{
+    width: 100%;
+}
+
+.container img
+{
+    border-radius: 8px;
+}
+
+.col-md-8 .thumbnail
+{
+    background-color: rgba(255,255,255,0.3);
+}
+
+.well h3
+{
+    margin-top: 0;
+}
+
+.thumbnail
+{
+    padding: 0;
+    overflow: hidden;
+}
+
+.thumbnail img
+{
+    border-radius: 0;
+}
+
+.attr
+{
+    font-size: smaller;
+    opacity: 0.6;
+}
+
+p.hero
+{
+    font-size: large;
+    margin-bottom: 2em;
+}
+
+p.semihero
+{
+    font-size: medium;
+    margin-bottom: 2em;
+}
+
+.home-box-img
+{
+    height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+.home-box-img#box-tech
+{
+    background-image: url('../.jpg');
+}
+
+.home-box-img#box-security
+{
+    background-image: url('../.jpg');
+}
+
+.home-box-img#box-economics
+{
+    background-image: url('../.jpg');
+}
+
+.home-box-img#box-viability
+{
+    background-image: url('../img/.jpg');
+}
+
+.home-box-img img
+{
+    width: 100%;
+}
+
+#home-boxes h4
+{
+    text-align: center;
+    color: #444;
+}
+
+#home-boxes .col-md-3
+{
+    padding: 0 5px;
+}
+
+.center
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#signature
+{
+    display: inline-block;
+    margin-left: 80%;
+    line-height: 1.5em;
+    margin-top: 2em;
+}
+/*
+.jumbotron .holder
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.jumbotron .holder img
+{
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.jumbotron h1
+{
+    float: left;
+}
+
+.blink {
+  animation: blink 1s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+  to { opacity: 0; }
+}
+@-webkit-keyframes blink {
+  to { opacity: 0; }
+}
+*/
+/*.container-small p,
+.container-small h1,
+.container-small h2,
+.container-small h3,
+.container-small h4,
+.container-small h5,
+.container-small h6,
+.container-small ul,
+.container-small ol
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
+
+.container-small div, .container-small div *, .container-small .jumbotron, .container-small .jumbotron *
+{
+    margin-left: 0;
+    margin-right: 0;
+}*/
