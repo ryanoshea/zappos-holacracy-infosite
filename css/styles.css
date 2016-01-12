@@ -210,6 +210,8 @@ footer
 {
     padding: 0;
     overflow: hidden;
+    margin: 1em auto;
+    max-width: 700px;
 }
 
 .thumbnail img
@@ -343,3 +345,9 @@ p.semihero
     margin-left: 0;
     margin-right: 0;
 }*/
+
+
+.textpage div.col-md-10 {
+    margin: 0 auto;
+}
+
